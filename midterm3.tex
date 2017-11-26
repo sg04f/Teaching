@@ -1,0 +1,159 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,geometry, graphicx}
+%\usepackage[export]{adjustbox}
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=0mm,
+ }
+\title{Sample Midterm 3 + Study Guide}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\section{Study Guide}
+
+\begin{enumerate}
+\item Important questions: All the problems from chapters 8 and 9.
+\item Chapter 8:
+\begin{enumerate}
+\item How to construct the joint distribution from a given problem.
+\item From the joint how to derive the marginal distributions.
+\item Calculate joint expectations, determining the independence of two random variables from the joint and marginal distributions.
+\item Conditional distribution and conditional expectations.
+\item Expectations and independent random variables.
+\item If $X$ and $Y$ are independent then $E(g(X)h(Y))=E(g(X))E(h(Y))$.
+\item For any two random variables $X$ and $Y$ we have $E(g(X)+h(Y))=E(g(X))+E(h(Y))$
+\item How to measure linear dependence between two random variables $X$ and $Y$? Compute the Covariance($Cov$) of two random variables.
+\item If $X$ and $Y$ are independent we have $Cov(X,Y)=0$
+\item However if $Cov(X,Y)=0$ then it doesn't necessarily imply that the two random variables $X$ and $Y$ are independent, it only tells us that there is NO linear dependence.
+
+\item Calculating covariance and interpreting it.
+\item Calculating correlation coefficients and interpreting it.
+\item Mean, Variance and covariance of a linear combination of random variable(s).
+\end{enumerate}
+\item Chapter 9
+\begin{enumerate}
+\item What does the central limit theorem state?
+\item How are the Expected value and the variance of the sample mean influenced by the sample size $n$
+\item How is the distribution of the sample mean influenced by the sample size $n$?
+\item Applications of the central limit theorem.
+\end{enumerate}
+\item This time we have short answer type problems. 20 questions 5 points each. Total of 100 points.
+\item Questions 1 to 10 Chapter 8 and questions 11 to 20 Chapter 9.
+\item Total time 50 minutes.
+\end{enumerate}
+
+\section{Sample midterm 2}
+
+\begin{enumerate}
+\item If two random variables $X$ and $Y$ are independent and $E(X)=2$ and $E(Y)=3$, then $E(XY)=$
+\vspace{3cm}
+
+\item Consider the following joint distribution of $(X,Y)$, from the table below the $P(X+Y \leq 3)=?$\\
+
+\begin{center}
+\begin{tabular}{| l | l | l | l|}
+    \hline
+          & Y=1 & Y=2 & Y=3 \\ \hline
+     X=1 & 0.3 & 0.1 & 0 \\ \hline
+     X=2 & 0.4 & 0.1 & 0.1 \\ \hline
+   %\hline
+\end{tabular}
+\end{center}
+
+
+\vspace{2cm}
+
+(For Qns 3 and 4) Consider the joint distribution of $(X,Y)$ given below \\
+\begin{center}
+\begin{tabular}{| l | l | l | l|}
+    \hline
+          & Y=1 & Y=4 & Y=9 \\ \hline
+     X=1 & 0 & 0 & 0.3 \\ \hline
+     X=2 & 0 & 0.4 & 0 \\ \hline
+     X=3 & 0.3 & 0 & 0 \\ \hline
+   %\hline
+    \end{tabular}
+\end{center}
+
+%\newpage
+\vspace{1cm}
+
+\item What are the distributions of $Y|X=1$, $Y|X=2$ and $Y|X=3$ ?
+\newpage
+%\vspace{5cm}
+
+\item Are the two random variables $X$ and $Y$ dependent ? Can you express $Y$ in terms of $X$?
+
+\vspace{5cm}
+
+(For Qns 5 and 6) Consider the random variable $X$ with the distribution
+
+\begin{center}
+\begin{tabular}{| l | l | l | l|}
+    \hline
+     $X=x$    & 1 & 2 & 3 \\ \hline
+     $P(X=x)$ & 0.3 & 0.3 & 0.4 \\ \hline
+    \end{tabular}
+\end{center}
+
+
+\item Suppose $Y=X+1$ what is the joint distribution of $(X,Y)$
+
+\vspace{5cm}
+
+\item What would be the correlation coefficient ($\rho$) between $X$ and $Y$ above?
+
+\vspace{5cm}
+
+\item For two random variables $X$ and $Y$ what shall be the $Cov(X, 5X+Y)$ when we are given that $Cov(X,Y)=2$, $Var(X)=5$ and $Var(Y)=3$.
+%\vspace{5cm}
+\newpage
+\item Consider three universities: Harvard, Columbia and N.Y.U. Harvard and Columbia are in the Ivy League, but N.Y.U is not. Columbia and N.Y.U are in NY City, but Harvard is not. You have a large population of students of whom one-third attend each school. You pick two students from this population at random. The random variable $X=$ \# students who go to a school in NY City. The random variable $Y=$ \# students who go to an Ivy League school. What is the joint distribution of $(X,Y)$?
+\vspace{7cm}
+
+\item For the above problem, what is $E(X^2+Y)=?$
+\vspace{7cm}
+
+\item In a large population of individuals, wage income has a mean of \$20,000.00 per year and a standard deviation of \$5000 per year. Asset income has a mean of \$3000 per year and a standard deviation of \$2500 per year. The correlation coefficient between wage income and asset income is 0.4. Total income is the sum of wage and  asset income. Find the mean and standard deviation of the total income of this population.
+\vspace{7cm}
+
+
+\item The central limit  theorem is valid when the observations in the sample are not independent? (True/False)
+\vspace{3cm}
+
+\item Based on a random sample of size 100 drawn from a certain population the variance of the sample mean is 16 (i.e., $Var(\bar{X})=16$) what is the population variance equal to (i.e., $Var(X_{i})=?$)
+\vspace{3cm}
+
+\item If I want to reduce the variance of sample mean to 8 what should be my new sample size?
+\vspace{5cm}
+
+\item An investor has three independent sources of income: wages, rents and interests. Wages are normally distributed, with mean \$15,000 and standard deviation of \$2000. Rents are normally distributed with mean \$2000 and standard deviation of \$500. Interest is normally with mean \$500 and standard deviation \$200.  Find the probability that the investors total income exceeds \$16,000.
+
+\vspace{5cm}
+
+\item In the above problem suppose we take a simple random sample of size 15. Find the probability that the total income of these 15 individuals exceeds \$275,000.
+
+\vspace{5cm}
+
+\item Suppose that the jelly beans have a mean weight of 5 grams with standard deviation of 1 gram. A box contains 25 jelly beans. Find $P(\bar{X}\geq 4.7)$
+
+\vspace{5cm}
+
+\item To what value must we reduce the standard deviation of jelly bean weight so as to make the probability of interest equal to $0.95$?
+
+\vspace{5cm}
+
+\item If the sample size of a random sample (drawn from a population with mean $\mu=5$ and variance $\sigma^2=9$) increase from 5 to 10 would the expected of value to the sample mean change too? If yes what shall be the new expected value?
+
+\vspace{5cm}
+
+\item As the sample size increases the probability that the sample mean is clse to the population mean is very low. True/False
+\vspace{5cm}
+
+\item The distribution of the original population (from which the sample was drawn) does not influence the distribution of the sample mean as the sample sizes increases (True/False)
+
+\end{enumerate}
+\end{document} 
